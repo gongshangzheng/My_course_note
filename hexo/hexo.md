@@ -74,4 +74,53 @@ hexo server
 
 [个人博客](https://blog.csdn.net/heimu24/article/details/81159099)
 
+在`custom domain`处写入你的网址
+
 此处注意国内购买网址的话需要备案。
+
+在博客文件source中创建一个名为`CNAME`的文件，注意不要有后缀，如果是txt文件，就打开隐藏模式，删除后缀`.txt`。
+
+在`CNAME`中写上域名即可。
+
+而后进入命令行程序，输入：
+
+```bash
+hexo clean
+hexo g #generate the files
+hexo d #deploy the website
+```
+
+## 写文章
+
+```bash
+hexo new newpapername
+```
+
+## hexo配置
+
+进入`_config.yml`
+
+### 网站
+
+| 参数       | 描述                 |
+| ---------- | -------------------- |
+| layout     | 布局                 |
+| title      | 标题                 |
+| date       | 建立日期             |
+| updated    | 更新日期             |
+| comments   | 开启文章的评论功能   |
+| tags       | 标签（不适用于分页） |
+| categories | 分类（不适用于分页） |
+| permalink  | 覆盖文章网址         |
+
+### 网址
+
+| 参数               | 描述                   |
+| ------------------ | ---------------------- |
+| url                | 网址                   |
+| root               | 网站根目录             |
+| permalink          | 文章的 永久链接 格式   |
+| permalink_defaults | 永久链接中各部分默认值 |
+
+`permalink`有这些值
+[permalink](https://hexo.io/zh-cn/docs/permalinks)
