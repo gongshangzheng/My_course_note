@@ -18,3 +18,15 @@
 ### ==打开自动补全==
 
 [个人博客解决方案](https://www.thisfaner.com/p/edit-markdown-efficiently-in-vscode/)
+
+## error
+
+### unable to start debugging
+
+[CSDN解决方案1](https://blog.csdn.net/hrd535523596/article/details/115440598)
+
+simply put, the names of the folders should exclude Chinese characters.
+
+### Unable to perform this action because the process is running
+
+[CSDN解决方案1](https://blog.csdn.net/weixin_41194129/article/details/107901811)
