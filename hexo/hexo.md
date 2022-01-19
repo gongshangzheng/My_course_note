@@ -26,13 +26,41 @@
 npm install -g hexo-cli
 ```
 
-### 建站
+## 建站
+
+先选择一个文件夹进入，输入以下内容
 
 ```bash
 hexo init <folder>
 cd <folder>
 npm install
 ```
+
+此时文件夹目录下有：
+
+node_modules: 依赖包
+public：存放生成的页面
+scaffolds：生成文章的一些模板
+source：用来存放你的文章
+themes：主题
+**_config.yml: 博客的配置文件**
+
+在命令行程序中输入以下内容
+
+```bash
+hexo g
+hexo server
+```
+
+其中，g for generate， 在本地生成数据库文件，目录等
+
+## GitHub配置
+
+### 创建个人仓库
+
+[GitHub创建个人仓库](https://blog.csdn.net/sinat_37781304/article/details/82729029)
+
+### 生成SSH
 
 ### 配置
 
@@ -41,3 +69,9 @@ npm install
 
 `package.json`
 修改应用程序信息以及需要的安装模块
+
+## 绑定个人网站
+
+[个人博客](https://blog.csdn.net/heimu24/article/details/81159099)
+
+此处注意国内购买网址的话需要备案。
