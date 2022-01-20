@@ -13,7 +13,7 @@
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
             "environment": [],
-            "externalConsole": false,
+            "console": "internalConsole",
             "MIMode": "gdb",
             "miDebuggerPath": "D:\\setups\\mingw32\\bin\\gdb.exe",
             "setupCommands": [
